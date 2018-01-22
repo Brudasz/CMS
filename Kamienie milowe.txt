@@ -1,6 +1,6 @@
 1.Ustalenie hierarchii w drużynie -> done
 2.Sporzšdzenie SRS -> done częsciowo
-3.Utworzenie BD -> in progress Daniel Klemczak - Dzisiaj
+3.Utworzenie BD -> in progress Daniel Klemczak - done częściowo
 4.Szablon panelu -> in progress Jędrzej Boguszyński - Do środy
 5.Logowanie -> not done
 6a.Dodawanie użytkowników -> not done
