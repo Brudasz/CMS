@@ -1,0 +1,21 @@
+1.Ustalenie hierarchii w dru¿ynie -> done
+2.Sporz¹dzenie SRS -> done czêsciowo
+3.Utworzenie BD -> in progress Daniel Klemczak - Dzisiaj
+4.Szablon panelu -> in progress Jêdrzej Boguszyñski - Dzisiaj
+5.Logowanie -> not done
+6a.Dodawanie u¿ytkowników -> not done
+6b.Aktualizacja danych i uprawnieñ u¿ytkowników -> not done
+6c.Usuwanie u¿ytkowników -> not done
+7a.Tworzenie strony internetowej -> not done
+7b.Aktualizacja strony internetowej -> not done
+7c.Usuwanie strony internetowej -> not done
+8a.Dodawanie sekcji do strony -> not done
+8b.Aktualizacja sekcji do strony -> not done
+8c.Usuwanie sekcji do strony -> not done
+9a.Dodawanie artykulów do sekcji -> not done
+9b.Aktualizowanie artykulów -> not done
+9c.Usuwanie artykulów do -> not done
+10a.Tworzenie galerii -> not done
+10b.Aktualizowanie galerii -> not done
+10c.Usuwanie galerii -> not done
+11.Personalizowanie wygl¹du strony
