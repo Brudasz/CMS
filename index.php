@@ -24,5 +24,6 @@
 			echo $_SESSION['blad'];
 		}
 	?>
+	<p><a href="rejestracja.php">rejestracja</a></p>
 </body>
 </html>
