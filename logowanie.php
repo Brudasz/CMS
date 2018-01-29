@@ -7,9 +7,10 @@
 		exit();
 	}
 	require_once "conn.php";
-	$login=$_POST['login'];
-	$haslo=$_POST['haslo'];
+	$login = $_POST['login'];
+	$haslo = $_POST['haslo'];
 	
+	$haslo = md5($haslo);
 	$login = htmlentities($login,ENT_QUOTES, "UTF-8");
 	$haslo = htmlentities($haslo,ENT_QUOTES, "UTF-8");
 	if ($result = @$conn->query(sprintf("SELECT * FROM administratorzycms WHERE Login='%s' AND Haslo='%s'",
