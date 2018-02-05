@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 22 Sty 2018, 12:47
+-- Czas generowania: 05 Lut 2018, 10:07
 -- Wersja serwera: 10.1.26-MariaDB
 -- Wersja PHP: 7.1.8
 
@@ -31,16 +31,16 @@ SET time_zone = "+00:00";
 CREATE TABLE `administratorzycms` (
   `IDużytkownika` int(11) NOT NULL,
   `Login` varchar(16) NOT NULL,
-  `Hasło` varchar(16) NOT NULL
+  `Haslo` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Zrzut danych tabeli `administratorzycms`
 --
 
-INSERT INTO `administratorzycms` (`IDużytkownika`, `Login`, `Hasło`) VALUES
-(1, 'Daniel', '123'),
-(2, 'Jedrzej', '321');
+INSERT INTO `administratorzycms` (`IDużytkownika`, `Login`, `Haslo`) VALUES
+(1, 'Daniel', '202cb962ac59075b964b07152d234b70'),
+(2, 'Jedrzej', 'caf1a3dfb505ffed0d024130f58c5cfa');
 
 --
 -- Indeksy dla zrzutów tabel
