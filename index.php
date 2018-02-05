@@ -3,7 +3,7 @@
 	
 	if((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
 	{
-		header('Location: paneladmina.php');
+		header('Location: panel_administratora.php');
 		exit();
 	}
 ?>

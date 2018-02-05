@@ -9,7 +9,7 @@
 	require_once "conn.php";
 	$login = $_POST['login'];
 	$haslo = $_POST['haslo'];
-	
+	$_SESSION['login'] = $_POST['login'];
 	$haslo = md5($haslo);
 	$login = htmlentities($login,ENT_QUOTES, "UTF-8");
 	$haslo = htmlentities($haslo,ENT_QUOTES, "UTF-8");
@@ -29,7 +29,7 @@
 				
 			$result->free_result();
 					
-			header('Location: paneladmina.php');
+			header('Location: panel_administratora.php');
 		}
 		else
 		{

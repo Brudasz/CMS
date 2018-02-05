@@ -1,0 +1,79 @@
+#side_menu
+{
+	background-color: #007acc;
+	height: 100%;
+}
+
+#content
+{
+	height: 100%;
+}
+
+#top_menu
+{
+	height: 50px;
+	background-color: #007acc;
+	padding: 3px;
+}
+
+#footer
+{
+	height: 50px;
+	background-color: #007acc;
+	color: white;
+	padding: 15px;
+}
+
+#footer_text
+{
+	margin-left: 35%;
+}
+
+#logo
+{
+	width: 45px;
+	height: 35px;
+	float: left;
+	margin-left: 10px;
+}
+
+#logo_home
+{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 30px;
+	color: white;
+}
+
+#logo_home_text
+{
+	margin-left: 10px;
+	color: white;
+	margin-top: 0.5%;
+}
+
+#avatar_user
+{
+	width: 40px;
+	height: 40px;
+	color: white;
+	margin-left: 70%;
+}
+
+#avatar_user_text
+{
+	color: white;
+	margin-top: 0.5%;
+	margin-left: 10px;
+}
+
+#dropdown
+{
+	width: 100%;
+	margin-top: 15%;
+	text-align: left;
+	font-size: 20px;
+	background-color: #007acc;
+	border: 1px solid #007acc;
+}
