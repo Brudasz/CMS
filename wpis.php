@@ -1,18 +1,22 @@
 <?php
 
+	session_start();
+	
 	require_once "conn.php";
 	$conn = @new mysqli($servername, $username, $password, $dbname);
-		
-	$login = $_POST["login"];
-	$haslo = $_POST["haslo"];
-	$haslo = md5($haslo);
-	$zapytanie = "INSERT INTO administratorzycms (Login, Haslo) VALUES ('$login', '$haslo')";
+	
+	$login = $_SESSION['login'];
+	$haslo = md5($_SESSION['haslo']);
+	$mail = $_SESSION['email'];
+	$zapytanie = "INSERT INTO administratorzycms (Login, Haslo, Email) VALUES ('$login', '$haslo', '$mail')";
 	if ($conn->query($zapytanie) === TRUE) 
 	{
+		session_destroy();
 		header('Location: index.php');
 	} 
 	else 
 	{
+		session_destroy();
 		echo "Error: " . $zapytanie . "<br>" . $conn->error;
 	}
 ?>
