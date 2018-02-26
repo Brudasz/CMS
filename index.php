@@ -1,1 +1,1 @@
-spór jest kurwa fundamentalny
+
